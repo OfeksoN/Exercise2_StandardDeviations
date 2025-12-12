@@ -1,3 +1,8 @@
+
+# 🔍 **DataStats: From Files to Insights**
+### *Mean, Standard Deviation, Probability & Sample Spaces in Python*
+
+
 📊 Statistical Analysis Project
 Overview
 This project focuses on fundamental statistical concepts and operations, including:
