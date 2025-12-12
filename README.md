@@ -18,12 +18,23 @@ Apply mathematical operations on selected columns.
 Output results to new files or display summaries.
 
 
-📂 Project Structure
-├── data/                # Sample CSV files
-├── src/
-│   ├── file_reader.py   # Functions for reading and cleaning data
-│   ├── stats.py         # Mean, standard deviation, variance calculations
-│   ├── sample_space.py  # Functions to generate sample spaces
-│   └── main.py          # Entry point for running the project
-├── README.md            # Project documentation
-└── requirements.txt     # Python dependencies
+📚 Concepts Covered
+
+Mean: Sum of values divided by count.
+Standard Deviation: Square root of variance.
+Sample Space: All possible outcomes of an experiment.
+File Handling: Reading structured data for analysis.
+
+
+🛠 Technologies
+
+Python 3.x
+pandas (for file handling)
+itertools (for sample space generation)
+
+
+🚀 Future Improvements
+
+Add visualizations (histograms, box plots).
+Support large datasets with optimized performance.
+Implement probability calculations and hypothesis testing.
