@@ -8,7 +8,7 @@ import pandas as pd
 df = pd.read_csv('Iris.csv', index_col = ['SepalLengthCm'])
 summed = 0
 std = 0
-amount = 150
+amount = len(df)
 for index, row in df.iterrows():
     summed = summed + index
 mean = summed / amount
@@ -24,7 +24,7 @@ print()
 
 df = pd.read_csv('Iris.csv', index_col = ['SepalWidthCm'])
 summed = 0
-amount = 150
+amount = len(df)
 for index, row in df.iterrows():
     summed = summed + index
 mean = summed / amount
@@ -39,7 +39,7 @@ print()
 
 df = pd.read_csv('Iris.csv', index_col = ['PetalLengthCm'])
 summed = 0
-amount = 150
+amount = len(df)
 for index, row in df.iterrows():
     summed = summed + index
 mean = summed / amount
@@ -54,7 +54,7 @@ print()
 
 df = pd.read_csv('Iris.csv', index_col = ['PetalWidthCm'])
 summed = 0
-amount = 150
+amount = len(df)
 for index, row in df.iterrows():
     summed = summed + index
 mean = summed / amount
