@@ -1,8 +1,8 @@
 from math import sqrt
 import pandas as pd
 
-#df = pd.read_csv('Iris.csv')
-#print(df.describe())
+df = pd.read_csv('Iris.csv')
+print(df.describe())
 
 df = pd.read_csv('Iris.csv', index_col = ['SepalLengthCm'])
 summed = 0
